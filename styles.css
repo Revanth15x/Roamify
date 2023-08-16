@@ -1,0 +1,376 @@
+.div-1{
+  font-size: large;
+}
+.p_1{
+  width: 600px;
+  font-size: 20px;
+
+}
+.h1_1{
+  font-size: 60px;
+  width: 700px;
+
+}
+.booking-form{
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: rgba(243, 243, 243, 0.644);
+  padding-left: 60px;
+}
+.book-now{
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right:16px ;
+  border-radius: 8px;
+background-color: rgba(243, 243, 243, 0.644);
+border-color: rgb(0, 0, 0);
+transition: background-color 0.30s , color 0.30s, padding-left 0.30s, 
+padding-top 0.30s,
+padding-bottom 0.30s,
+padding-right 0.30s, 
+border-radius 0.30s;
+cursor: pointer;
+
+}
+.book-now:hover{
+  
+  padding-left: 30px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right:30px ;
+  border-radius: 12px;
+}
+.navbar-brand{
+  margin-left: 60px;
+}
+.bg{
+  background-color: rgba(243, 243, 243, 0.644);
+}
+.img-1{
+  display: inline-block;
+  width: 10000px;
+  
+
+}
+.img-1-1{
+  max-width: 100%;
+  height: auto;
+  width: 1900px;
+  height: 700px;
+  
+}
+@media screen and (min-width: 601px) {
+  .booking-form {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .booking-form {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .h1_1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h1_1 {
+    font-size: auto;
+  }
+}
+@media screen and (min-width: 601px) {
+  .p_1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .p_1 {
+    font-size: auto;
+  }
+}
+.about-sec{
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-bottom: 100px;
+  background-color: gold;
+}
+.about-head{
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
+}
+.services-sec{
+  padding-left: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card-1{
+  display: inline-block;
+  margin-right: 80px;
+  margin-top: 50px;
+  
+}
+.card-2{
+  display: inline-block;
+  margin-right: 80px
+}
+.card-3{
+  display: inline-block;
+}
+.card-1-p{
+  width: 400px;
+}
+.card-2-p{
+  width: 400px;
+}
+.card-3-p{
+  width: 400px;
+}
+.card-1-image{
+  width: 400px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.card-2-image{
+  width: 400px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  height: 266.635px;
+}
+.card-3-image{
+  width: 400px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  height: 266.635px;
+}
+.More_info{
+  border-color: aquamarine;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  color: rgb(9, 9, 9);
+  transition: background-color 0.30s , color 0.30s, padding-left 0.30s, 
+padding-top 0.30s,
+padding-bottom 0.30s,
+padding-right 0.30s, 
+border-radius 0.30s;
+cursor: pointer;
+}
+.More_info:hover{
+  
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right:20px ;
+  border-radius: 12px;
+}
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d4042;
+}
+.testimonial {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.testimonial .image {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+.slide p {
+  text-align: center;
+  padding: 0 160px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+.review-p{
+  color: #fff;
+}
+.name-people{
+  color: #fff;
+}
+.job-people{
+  color: #fff;
+}
+.slide .quote-icon {
+  font-size: 30px;
+  color: #4070f4;
+}
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details .name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+/* swiper button css */
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-btn::after,
+.nav-btn::before {
+  font-size: 20px;
+  color: #fff;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+@media screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+  }
+  .nav-btn {
+    display: none;
+  }
+}
+.Reviews{
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #fff;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;}
+  
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
